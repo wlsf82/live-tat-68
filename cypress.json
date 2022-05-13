@@ -1,5 +1,4 @@
 {
-  "defaultCommandTimeout": 10100,
   "projectId": "vdmafb",
   "retries": {
     "runMode": 2,
