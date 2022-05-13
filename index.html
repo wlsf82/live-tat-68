@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flaky Test Management</title>
+    <style>
+      * {
+        font-family: sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Flaky Test Management</h1>
+    <div id="slow-content"></div>
+    <script>
+      window.addEventListener('load', function() {
+        const slowContentDiv = document.getElementById('slow-content')
+        const paragraph = document.createElement('p')
+        const randomNumberBetweenOneAndTen = Math.floor(Math.random() * 10) + 1
+
+        setTimeout(function() {
+          paragraph.innerText = 'It took some time, but I finally appeared.'
+          slowContentDiv.appendChild(paragraph)
+        }, randomNumberBetweenOneAndTen * 1000)
+      }, false)
+    </script>
+  </body>
+</html>
