@@ -1,4 +1,9 @@
 {
+  "projectId": "vdmafb",
+  "retries": {
+    "runMode": 2,
+    "openMode": 0
+  },
   "fixturesFolder": false,
   "pluginsFile": false,
   "supportFile": false
