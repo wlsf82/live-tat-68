@@ -1,0 +1,16 @@
+{
+  "name": "live-tat-68",
+  "version": "1.0.0",
+  "description": "TBD.",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "test": "cypress run"
+  },
+  "keywords": [],
+  "author": "Walmyr Filho <wlsf82@gmail.com> (https://walmyr.dev/)",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^9.6.1"
+  }
+}
